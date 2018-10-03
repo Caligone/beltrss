@@ -1,0 +1,16 @@
+{
+    "extends": "gatsby-standard",
+    "rules": {
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"],
+      "indent": ["error", 4],
+      "comma-dangle": ["error", "always-multiline"]
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx"]
+        }
+      }
+    }
+  }
